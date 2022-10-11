@@ -28,7 +28,7 @@ while True:
                 for i in list_of_fields:
                     pyperclip.copy(list_of_fields[i])
                     time.sleep(0.1)
-                    pyautogui.hotkey('ctrl', 'v')
+                    pyautogui.hotkey('command', 'v')
                     pyautogui.press('tab')
 
 
